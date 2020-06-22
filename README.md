@@ -18,6 +18,8 @@ We approach this problem by doing data analysis that explores the film productio
    - What genres have been doing well in terms of popularity over the last 5 years?
    - What genres have been doing well in terms of ratings over the last 5 years?  
    - Any correlation between runtime and ratings of movies ? 
+   
+3. Which directors have consistently delivered value in the streaming era?
 
 
 ## Data
@@ -35,11 +37,14 @@ Please refer to the [narrative Jupyter Notebook](./Movie_Analysis.ipynb) in this
 - Top 5 popular genres are Drama, Comedy, Action, Thriller, and Crime (based on top 10% of movies ranked by number of votes on IMDB)
 - Drama, Comedy, and Documentary genres generate highest ratings among top 10% popular movies ranked by number of votes on IMDB
 - There is a positive correlation between runtime and ratings of movies among the top 10% of most popular movies.
+- Among directors that have directed more than three movies since 2013, M. Night Shyamalan has delivered the highest MOIC.
 
 
 ## Limitations & Next Steps
 
 - Not include data from other database such as Rotton Tomatoes and The Movie Database (TMDb)
+- The MOIC analysis does not consider the potential for a low budget movie to skew results. A floor for production budgets should be considered for future iterations of this study.
+- MOIC traditionally reflects the ratio of cash returned to investors vs. cash invested. In this instance global revenue is used as a proxy for cash flow returned to investors.
 
 ### Contact
 
