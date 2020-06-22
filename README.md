@@ -27,7 +27,7 @@ The analysis is based on database from IMDB
 
 ## Findings & Recommendations
 
-Please refer to the [narrative Jupyter Notebook](./Mark_Movie_Analysis.ipynb) in this repository for a walkthrough and more explanation of these findings.
+Please refer to the [narrative Jupyter Notebook](./Movie_Analysis.ipynb) in this repository for a walkthrough and more explanation of these findings.
 
 - Largest players since 2013 are Buena Vista , Universal, and Warner Bros with annual gross bookings of around 5-6 billion USD. 
 - The industry is concentrated among top 10 players. Top 10 players generates nearly 90% of total gross bookings annually. 
